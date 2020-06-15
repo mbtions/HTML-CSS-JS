@@ -1,0 +1,8 @@
+input{
+    width: 80px;
+    transition: width 0.5s ease-in;
+}
+
+input:focus{
+    width: 200px;
+}
