@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="fullscreenNav.css">
         <script src="fullscreenNav.js"></script>
         <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     </head>
 
@@ -19,13 +20,16 @@
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <!-- Overlay content -->
             <div class="overlay-content">
-                <a href="about.html">About</a>
-                <a href="services.html">Services</a>
-                <a href="clients.html">Clients</a>
-                <a href="contact.html">Contact</a>
+                <a href="about.html" target="_blank">About</a>
+                <a href="services.html" target="_blank">Services</a>
+                <a href="clients.html" target="_blank">Clients</a>
+                <a href="contact.html" target="_blank">Contact</a>
             </div>
         </div>
         <!-- Use any element to open/show the overlay navigation menu -->
-        <span onclick="openNav()">MENU</span>
+        <div class="icon-bar">
+            <a class="active" href="#"><i class="fa fa-home"></i></a>
+            <span onclick="openNav()">MENU</span>
+          </div>
     </body>
 </html>

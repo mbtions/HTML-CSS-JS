@@ -56,15 +56,22 @@
   }
 
   body{
-      margin: 50ps;
+      margin: 50px;
       font-family: 'Carter One', cursive;
       padding: 20px;
-      background-image: url("https://cdn.trendhunterstatic.com/thumbs/cool-backgrounds.jpeg");
-      background-repeat: no-repeat;
+      /*background-image: url("background-img.jpg");*/
+      background-color: wheat;
       background-size: cover;
   }
 
+  .icon-bar {
+    text-align: center;
+    width: 90px; /* Set a specific width */
+    background-color: #555; /* Dark-grey background */
+  }
+
   span{
+      color: white;
       font-size: 100px;
       text-align: center;
       padding: 20px;
